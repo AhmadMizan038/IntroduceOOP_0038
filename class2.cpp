@@ -21,4 +21,13 @@ class persegi_panjang
     void hitung_luas(){
         luas = panjang * lebar;
     }
-    
+    void output_data(){
+        cout << "luas persegi panjang: " << luas << endl;
+    }
+};
+int main(){
+    persegi_panjang pp;
+    pp.input_data();
+    pp.hitung_luas();
+    pp.output_data();
+}
