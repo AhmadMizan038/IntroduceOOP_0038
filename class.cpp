@@ -23,3 +23,12 @@ public:
         cout << "harga mobil = " << harga_mobil << endl;
     }
 };
+int main()
+{
+    Mobil TOYOTA;
+    TOYOTA.input_data();
+    cout << "nama mobil = " << TOYOTA.nama_mobil << endl;
+    cout << "tipe mobil = " << TOYOTA.tipe_mobil << endl;
+
+    TOYOTA.output_data();
+}
